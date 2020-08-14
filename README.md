@@ -1,5 +1,4 @@
-
-init change
+branch change
 # Sprint Challenge: Advanced CSS and Intro to JavaScript - Influential Artists
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
