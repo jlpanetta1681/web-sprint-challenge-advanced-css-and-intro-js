@@ -138,6 +138,7 @@ button:hover{
 .artist img{
     width:100%;
 }
+
 @media (max-width: 500px){
     body{
       font-size:0.5rem;
@@ -182,4 +183,3 @@ button:hover{
 
 }
     }
-  
