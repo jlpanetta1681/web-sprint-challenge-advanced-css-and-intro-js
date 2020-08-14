@@ -235,7 +235,7 @@ function getArtistByIndex(array, index) {
 function get20s(array, years){
   const newarray= []
   for(let i = 0; i < array.length; i++)
-if(artists[i].years.includes(1900-2000))
+if(artists[i].years.includes(19, 20))
   newarray.unshift(artists[i])
 console.log(newarray)
 }
@@ -272,12 +272,21 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/* Code here */){
-
-    /* Code here */
+/*function addArtist(person){
+   let person = {
+     id:"20",
+     name: "Joe Panetta",
+     years:"Born in 1981 alive today 08/14/2020",
+     genre:"Web design",
+     nationality:"italian",
+     bio: "Im gonna just type a little stuff here because for some reason my ipsum lorem extension stopped working."
+}
+   
+    artists.push(artist)
+     console.log(artists[20])
 
   }
-
+addArtist(joe)*/
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
     (1) artists array 
@@ -285,12 +294,20 @@ function addArtist(/* Code here */){
 and returns an array with names of artists who painted more than 100 paintings.
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ..."Albrecht Dürer"]*/
+const expartists = []
+function lotsOfArt(artists){
 
-function lotsOfArt(/* Code here */){
-
-  /* Code here */
+  for(let i = 0; i < array.length; i++){
+if(artists[i].paintings > 100){
+  artists.splice([i],1)
+console.log(expartists.unshift(artists[i]))
+}
 
 }
+}
+
+console.log(expartists)
+
 
 
 
